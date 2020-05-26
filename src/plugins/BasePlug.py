@@ -9,6 +9,6 @@ class BasePlug():
         #     "peer_id" : e.object.peer_id,
         #     "message": "галочка тебе пизда"
         # })
-        self.bot.vk.messages.send(peer_id=e.object.peer_id, random_id=0, message="arr")
+        self.bot.vk.messages.send(peer_id=e.object.peer_id, random_id=0, message="?")
     def work(self, **kwargs):
         return
